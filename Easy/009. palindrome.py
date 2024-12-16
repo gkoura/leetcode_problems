@@ -4,15 +4,14 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        if x < 0: return False
-        if x == 0: return True
-        reversed_half = 0
-        while x > reversed_half:
-            reversed_half = reversed_half * 10 + x % 10
-            x //= 10
-        
-        # If the number of digits is odd, we can ignore the middle digit
-        return x == reversed_half or x == reversed_half // 10
+        str_x = str(x)
+        reverse_str_x = str_x[::-1]
+        if str_x == reverse_str_x:
+            return True
+        else:
+            return False
+
+
 
 
         
@@ -20,7 +19,7 @@ class Solution(object):
 
 
 def main():
-    x = 10
+    x = 121
     solution = Solution()  # Create an instance of the Solution class
     print(solution.isPalindrome(x))
 
