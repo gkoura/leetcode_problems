@@ -12,22 +12,6 @@ class Solution(object):
             return False
 
 
-
-
-        
-
-
-
-def main():
-    x = 121
-    solution = Solution()  # Create an instance of the Solution class
-    print(solution.isPalindrome(x))
-
-
-if __name__ == "__main__":
-    main()
-
-
 """
 Given an integer x, return true if x is a 
 palindrome, and false otherwise.

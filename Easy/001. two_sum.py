@@ -14,38 +14,6 @@ class Solution(object):
             else:
                 helper_dict[num] = i
 
-
-
-def main():
-    nums = [2, 7, 11, 15]
-    target = 9
-    solution1 = Solution()  # Create an instance of the Solution class
-    valid_indexes = solution1.twoSum(nums, target)  # Call the twoSum method
-    print(valid_indexes)  # Print the result
-
-    print("-"*10)
-
-    nums = [3,2,4]
-    target = 6
-    solution1 = Solution()  # Create an instance of the Solution class
-    valid_indexes = solution1.twoSum(nums, target)  # Call the twoSum method
-    print(valid_indexes)  # Print the result
-
-
-    print("-"*10)
-
-    nums = [3,3]
-    target = 6
-    solution1 = Solution()  # Create an instance of the Solution class
-    valid_indexes = solution1.twoSum(nums, target)  # Call the twoSum method
-    print(valid_indexes)  # Print the result
-
-
-
-if __name__ == "__main__":
-    main()
-
-
 """
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
