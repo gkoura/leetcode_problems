@@ -1,0 +1,9 @@
+# classic ignores for python projects
+__pycache__/
+
+# vscode
+.vscode/
+
+# macOS
+.DS_Store
+
